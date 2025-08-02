@@ -6,7 +6,7 @@
 int main(void) {
 	char input[BUFFERSIZE];
 	
-	printf("Enter the expression to be calculated : ");
+	printf("Enter the expression to be calculated [whole number / integers only] : ");
 	fflush(stdout);
 	fgets(input, BUFFERSIZE, stdin);
 	printf("Result is: %.2f\n", evaluate(input));
