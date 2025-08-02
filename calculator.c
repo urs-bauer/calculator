@@ -6,9 +6,10 @@
 int main(void) {
 	char input[BUFFERSIZE];
 	
-	printf("Enter the expression: ");
+	printf("Enter the expression to be calculated : ");
 	fflush(stdout);
 	fgets(input, BUFFERSIZE, stdin);
 	printf("Result is: %.2f\n", evaluate(input));
+    printf("Done\n");
 	return EXIT_SUCCESS;
 }
