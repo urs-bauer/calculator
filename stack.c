@@ -32,7 +32,7 @@ void push(Stack * stack, Item i)
 	if (stack->top>=stack->size-1)
 		reallocate(stack);
 	stack->contents[stack->top++] = i;
-	printf("--Pushded: %d\n", i);
+	printf("--Pushed: %d\n", i);
 }
 
 Item pop(Stack * stack)
