@@ -6,6 +6,7 @@
 int main(void) {
 	char input[BUFFERSIZE];
 	
+    printf("Welcome to IntegerCalculator\n");
 	printf("Enter the expression to be calculated [whole number / integers only] : ");
 	fflush(stdout);
 	fgets(input, BUFFERSIZE, stdin);
