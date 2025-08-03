@@ -6,6 +6,8 @@
 int main(void) {
 	char input[BUFFERSIZE];
 	
+    printf("reactivate 2nd_branch...\n");
+
 	printf("Enter the expression to be calculated : ");
 	fflush(stdout);
 	fgets(input, BUFFERSIZE, stdin);
